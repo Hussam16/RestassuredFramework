@@ -1,0 +1,21 @@
+
+
+Pre-requists
+-------------
+1- Java +9 > setup java path in the enviroment variables
+2-  Maven on machine > setup in the enviroment variables
+3- Testng i prefered version 7.5 to your pom xml 
+4- install allure on the machine and setup it up at the enviroment variables 
+5-   add allureTestng dependcy to your pom.xml
+6- Verify the adding of testng plugin 
+7- Add Maven Sunfire Plugin 
+8- add Maven Compiler Plugin 
+****************************************************************************
+To run the allure report 
+------------------------
+1- open the directry of the results folder 
+2- open the command line 
+3 - run this command  allure serve E:\Projects\Restassured\allure-results
+- the project through command prompt run mvn test 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Check the Framework  design and Structure 
