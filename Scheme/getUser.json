@@ -1,0 +1,93 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "default": {},
+    "title": "Root Schema",
+    "required": [
+        "id",
+        "username",
+        "firstName",
+        "lastName",
+        "email",
+        "password",
+        "phone",
+        "userStatus"
+    ],
+    "properties": {
+        "id": {
+            "type": "integer",
+            "default": 0,
+            "title": "The id Schema",
+            "examples": [
+                200
+            ]
+        },
+        "username": {
+            "type": "string",
+            "default": "",
+            "title": "The username Schema",
+            "examples": [
+                "HussamAbdo"
+            ]
+        },
+        "firstName": {
+            "type": "string",
+            "default": "",
+            "title": "The firstName Schema",
+            "examples": [
+                "Hilma"
+            ]
+        },
+        "lastName": {
+            "type": "string",
+            "default": "",
+            "title": "The lastName Schema",
+            "examples": [
+                "Schulist"
+            ]
+        },
+        "email": {
+            "type": "string",
+            "default": "",
+            "title": "The email Schema",
+            "examples": [
+                "Harmony_Lang58@yahoo.com"
+            ]
+        },
+        "password": {
+            "type": "string",
+            "default": "",
+            "title": "The password Schema",
+            "examples": [
+                "yU_e7D4iz14ZBc3"
+            ]
+        },
+        "phone": {
+            "type": "string",
+            "default": "",
+            "title": "The phone Schema",
+            "examples": [
+                "696-417-1296"
+            ]
+        },
+        "userStatus": {
+            "type": "integer",
+            "default": 0,
+            "title": "The userStatus Schema",
+            "examples": [
+                754
+            ]
+        }
+    },
+    "examples": [{
+        "id": 200,
+        "username": "HussamAbdo",
+        "firstName": "Hilma",
+        "lastName": "Schulist",
+        "email": "Harmony_Lang58@yahoo.com",
+        "password": "yU_e7D4iz14ZBc3",
+        "phone": "696-417-1296",
+        "userStatus": 754
+    }]
+}

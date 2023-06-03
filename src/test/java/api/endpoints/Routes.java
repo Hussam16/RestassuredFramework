@@ -7,5 +7,7 @@ public class Routes {
 	// Users End-points
 
 	public static String createUser = baseURL + "/user";
+	public static String getUser = baseURL + "/user/{username}";
+	public static String getUserHussam = baseURL + "/user/HussamAbdo";
 
 }

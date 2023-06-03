@@ -22,17 +22,16 @@ public class UserEndpoints {
 
 	public Response createUser() {
 
-		
 		JSONObject jsonObject = new JSONObject();
 		jsonObject.put("username", "Hussam");
 		jsonObject.put("email", "hussam16");
 		return given().contentType(ContentType.JSON).body(jsonObject).when().post(Routes.createUser);
 
 	}
-	
+
 	public Response createUserProperty() {
 
-		String userCreateUrl=new ProperyFileReader().getUrl().getString("postUser");
+		String userCreateUrl = new ProperyFileReader().getUrl().getString("postUser");
 		JSONObject jsonObject = new JSONObject();
 		jsonObject.put("username", "Hussam");
 		jsonObject.put("email", "hussam16");
@@ -40,6 +39,10 @@ public class UserEndpoints {
 
 	}
 
-	
+	public Response getUserByUserName(String userName) {
+
+		return given().contentType(ContentType.JSON).pathParam("username", userName).get(Routes.getUser);
+
+	}
 
 }
