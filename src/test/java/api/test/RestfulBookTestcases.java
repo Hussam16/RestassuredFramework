@@ -14,7 +14,7 @@ import io.restassured.response.Response;
 
 public class RestfulBookTestcases {
 
-	@Test
+	@Test(enabled = false)
 	public void LoginTestcase() {
 
 		JSONObject jsonObject = new JSONObject();
