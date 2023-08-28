@@ -19,5 +19,7 @@ jobs:
           java-version: 17
 
       - name: Build and test with Maven
-        run: mvn clean test
-
+        run: |
+          sudo apt-get update -y
+          sudo apt-get install -y maven
+          mvn clean test
