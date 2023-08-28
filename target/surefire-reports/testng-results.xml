@@ -1,41 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-31T17:59:28 AST" name="Suite" finished-at="2023-05-31T17:59:39 AST" duration-ms="11273">
+  <suite started-at="2023-08-28T21:57:17 EEST" name="Suite" finished-at="2023-08-28T21:57:21 EEST" duration-ms="4014">
     <groups>
     </groups>
-    <test started-at="2023-05-31T17:59:28 AST" name="Test" finished-at="2023-05-31T17:59:39 AST" duration-ms="11273">
-      <class name="api.test.UserTests">
-        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.UserTests@7b36aa0c]" started-at="2023-05-31T17:59:28 AST" name="setup" finished-at="2023-05-31T17:59:29 AST" duration-ms="592" status="PASS">
+    <test started-at="2023-08-28T21:57:17 EEST" name="SmokeTesting" finished-at="2023-08-28T21:57:21 EEST" duration-ms="4014">
+      <class name="api.test.authTests">
+        <test-method signature="sucessfulLogin()[pri:0, instance:api.test.authTests@36916eb0]" started-at="2023-08-28T21:57:17 EEST" name="sucessfulLogin" finished-at="2023-08-28T21:57:21 EEST" duration-ms="3920" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="createusertests()[pri:0, instance:api.test.UserTests@7b36aa0c]" started-at="2023-05-31T17:59:29 AST" name="createusertests" finished-at="2023-05-31T17:59:35 AST" duration-ms="5935" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createusertests -->
-        <test-method signature="createusertests2()[pri:0, instance:api.test.UserTests@7b36aa0c]" started-at="2023-05-31T17:59:35 AST" name="createusertests2" finished-at="2023-05-31T17:59:36 AST" duration-ms="935" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createusertests2 -->
-        <test-method signature="createusertests3()[pri:0, instance:api.test.UserTests@7b36aa0c]" started-at="2023-05-31T17:59:36 AST" name="createusertests3" finished-at="2023-05-31T17:59:37 AST" duration-ms="892" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createusertests3 -->
-        <test-method signature="createusertests4()[pri:0, instance:api.test.UserTests@7b36aa0c]" started-at="2023-05-31T17:59:37 AST" name="createusertests4" finished-at="2023-05-31T17:59:38 AST" duration-ms="883" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createusertests4 -->
-        <test-method signature="createusertests5()[pri:0, instance:api.test.UserTests@7b36aa0c]" started-at="2023-05-31T17:59:38 AST" name="createusertests5" finished-at="2023-05-31T17:59:38 AST" duration-ms="822" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createusertests5 -->
-        <test-method signature="createusertests6()[pri:0, instance:api.test.UserTests@7b36aa0c]" started-at="2023-05-31T17:59:38 AST" name="createusertests6" finished-at="2023-05-31T17:59:39 AST" duration-ms="826" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createusertests6 -->
-      </class> <!-- api.test.UserTests -->
-    </test> <!-- Test -->
+        </test-method> <!-- sucessfulLogin -->
+      </class> <!-- api.test.authTests -->
+    </test> <!-- SmokeTesting -->
   </suite> <!-- Suite -->
 </testng-results>

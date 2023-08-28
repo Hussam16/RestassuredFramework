@@ -1,6 +1,8 @@
-E:\Projects\Restassured\src\test\java\api\utilites\ProperyFileReader.java
-E:\Projects\Restassured\src\test\java\api\endpoints\UserEndpoints.java
-E:\Projects\Restassured\src\test\java\api\test\UserTests.java
-E:\Projects\Restassured\src\test\java\api\utilites\ExcelUility.java
-E:\Projects\Restassured\src\test\java\api\utilites\ExtentReportManager.java
-E:\Projects\Restassured\src\test\java\api\endpoints\Routes.java
+D:\Digital Guru's\RestassuredFramework\src\test\java\api\utilites\ExcelUility.java
+D:\Digital Guru's\RestassuredFramework\src\test\java\api\endpoints\Instructor.java
+D:\Digital Guru's\RestassuredFramework\src\test\java\api\utilites\ProperyFileReader.java
+D:\Digital Guru's\RestassuredFramework\src\test\java\api\utilites\ExtentReportManager.java
+D:\Digital Guru's\RestassuredFramework\src\test\java\api\endpoints\Routes.java
+D:\Digital Guru's\RestassuredFramework\src\test\java\api\endpoints\Staff.java
+D:\Digital Guru's\RestassuredFramework\src\test\java\api\endpoints\Games.java
+D:\Digital Guru's\RestassuredFramework\src\test\java\api\test\authTests.java
